@@ -70,7 +70,8 @@
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
 
-    }    
+    }
+
     main h1{
         background-color:var(--cor2);
         border-radius: 10px;
@@ -120,6 +121,20 @@
     
     main img{
         width:100% ;
+    }
+    div.video{
+        background-color: dodgerblue;
+        margin: 0px -20px 30px -20px;
+        padding: 20px;
+        padding-bottom: 50%;
+        position: relative;
+    }
+    div .video > iframe {
+        position: absolute;
+        top:5% ;
+        left: 5%;
+        width:150% ;
+        height:150% ;
     }
     footer{
         background-color:rgba(110, 230, 11, 0.926);
