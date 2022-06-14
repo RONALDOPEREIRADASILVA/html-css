@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Execicios de Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .destaque{
+            background-color: aqua;
+        }
+        col.cNome{
+            background-color: cornflowerblue;
+        }
+        col.cSexo{
+            background-color: blue;
+        }
+        col.cIdade{
+            background-color: rgba(67, 67, 233, 0.753);
+        }
+        col.cProf{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Execicio de Tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cNome"> 
+            <col class="cSexo">
+            <col class="cIdade">
+            <col class="cProf">
+        
+        </colgroup>
+        <caption>Cadrastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profição</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>26</td>
+            <td>Contadora</td>
+        </tr>
+        <tr>
+            <td>
+                Jorge
+            </td>
+            <td>M</td>
+            <td>25</td>
+            <td>Quimico</td>
+        </tr>
+        <tr>
+            <td>Paula</td>
+            <td>F</td>
+            <td>28</td>
+            <td>Assistente Social</td>
+        </tr>
+        <tr>
+            <td>Ricardo</td>
+            <td>M</td>
+            <td>31</td>
+            <td>Eletricista</td>
+        </tr>
+        <tr>
+            <td>Ronaldo</td>
+            <td>M</td>
+            <td>38</td>
+            <td>motorista</td>
+        </tr>
+        <tr>
+            <td>Vanessa</td>
+            <td>F</td>
+            <td>32</td>
+            <td>Secretaria</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
